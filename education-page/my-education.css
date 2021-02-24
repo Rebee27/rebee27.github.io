@@ -8,15 +8,14 @@ body{
 
 
 header{
-    align-self: left;
     background-color:#746973;
-    width: 20%;
     text-align: center;
     padding: 1%;
-    font-size: 150%;
+    font-size: 150%; 
+    position: fixed;
+    height: 100%;
     
 }
-
 
 
 #profileImage{

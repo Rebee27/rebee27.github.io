@@ -8,14 +8,16 @@ body{
 
 
 header{
-    align-self: left;
     background-color:#746973;
-    width: 20%;
     text-align: center;
     padding: 1%;
-    font-size: 150%;
+    font-size: 150%; 
+    position: fixed;
+    height: 100%;
     
 }
+
+
 
 
 
@@ -24,3 +26,25 @@ header{
     height: 180px;
     border-radius: 80px;
 }
+
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 30px;
+}
+
+.fa-guitar{
+    color: yellow;
+}
+
+.fa-book-reader{
+    color: red;
+}
+
+.fa-cookie-bite{
+    color: brown;
+}
+

@@ -8,12 +8,12 @@ body{
 
 
 header{
-    align-self: left;
     background-color:#746973;
-    width: 20%;
     text-align: center;
     padding: 1%;
-    font-size: 150%;
+    font-size: 150%; 
+    position: fixed;
+    height: 100%;
     
 }
 
@@ -33,11 +33,18 @@ header{
     align-self: center;
     padding: 0 20px 0 20px;
     font-size: 30px;
+    width: 50%;
+
 }
 
 #content {
+    margin-left:10% ;
     align-self: center;
     text-align: center;
     display: flex;
-    justify-content: center;
+}
+
+
+#info{
+    padding: 8% 6% 0 0;
 }
