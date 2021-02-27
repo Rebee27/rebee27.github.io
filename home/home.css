@@ -38,7 +38,7 @@ header{
 }
 
 #content {
-    margin-left:10% ;
+    padding-left:12% ;
     align-self: center;
     text-align: center;
     display: flex;

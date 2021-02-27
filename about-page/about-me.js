@@ -10,8 +10,8 @@ const home = document.getElementById("home");
 const about = document.getElementById("about");
 const skills = document.getElementById("skills");
 const education = document.getElementById("education");
-const work = document.getElementById("work");
 const contact = document.getElementById("contact");
+const books= document.getElementById("second");
 
 function goToHome() {
     home.addEventListener("click", () => {
@@ -45,21 +45,20 @@ function goToEducation() {
 goToEducation();
 
 
-function goToWork() {
-    work.addEventListener("click", () => {
-        window.location.href = "../work-page/my-work.html"
+
+function goToBooks(){
+    books.addEventListener("click", () =>{
+        window.location.href="https://www.karenkingsbury.com/divine"
     })
 };
-goToWork();
-
-
+goToBooks();
 
 function setPointer() {
     home.style.cursor = "pointer";
     about.style.cursor = "pointer";
     skills.style.cursor = "pointer";
     education.style.cursor = "pointer";
-    work.style.cursor = "pointer";
+    books.style.cursor="pointer";
 }
 
 setPointer();

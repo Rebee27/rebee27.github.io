@@ -9,7 +9,6 @@ const home = document.getElementById("home");
 const about = document.getElementById("about");
 const skills = document.getElementById("skills");
 const education = document.getElementById("education");
-const work = document.getElementById("work");
 const contact = document.getElementById("contact");
 
 function goToHome() {
@@ -44,21 +43,12 @@ function goToEducation() {
 goToEducation();
 
 
-function goToWork() {
-    work.addEventListener("click", () => {
-        window.location.href = "../work-page/my-work.html"
-    })
-};
-goToWork();
-
-
 
 function setPointer() {
     home.style.cursor = "pointer";
     about.style.cursor = "pointer";
     skills.style.cursor = "pointer";
     education.style.cursor = "pointer";
-    work.style.cursor = "pointer";
 }
 
 setPointer();
