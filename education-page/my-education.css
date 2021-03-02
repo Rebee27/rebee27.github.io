@@ -1,21 +1,89 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
- 
-    margin: 0%;
-    background-color: #EDA7FF;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+
+  margin: 0%;
+  background-color: #242423;
+  color: rgb(111,111,110);
 }
-
-
+/* HEADER */
 header{
-    background-color:#746973;
+    background-color:#F5F5F5;
     text-align: center;
     padding: 1%;
     font-size: 150%; 
-    position: fixed;
+    position: absolute;
     height: 100%;
 }
 
+#name{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    color: #9c04be;
+    box-sizing: content-box;
+    border-radius: 50%;
+    background-color: rgb(165, 162, 162);
+    padding: 5% 10%;
+}
+
+#name:hover{
+    animation: 2s shake infinite alternate;
+}
+
+@keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+  }
+
+#pages{
+    color: 00FFF0;
+    line-height: 250%;
+ 
+}
+
+#home:hover {
+    background-color: black;
+    color: #EDA7FF;
+    border-radius: 50%;
+    box-sizing: content-box;
+    padding: 5% 12%;
+  }
+
+#about:hover {
+    background-color: black;
+    color: #EDA7FF;
+    border-radius: 50%;
+    box-sizing: content-box;
+    padding: 5% 12%;
+  }
+
+#skills:hover {
+    background-color: black;
+    color: #EDA7FF;
+    border-radius: 50%;
+    box-sizing: content-box;
+    padding: 5% 12%;
+  }
+
+#education:hover {
+    background-color: black;
+    color: #EDA7FF;
+    border-radius: 50%;
+    box-sizing: content-box;
+    padding: 5% 12%;
+  }
+
+#contact:hover {
+    background-color: black;
+    color: #EDA7FF;
+    border-radius: 50%;
+    box-sizing: content-box;
+    padding: 5% 12%;
+  }
 
 
 #profileImage{
@@ -23,3 +91,5 @@ header{
     height: 180px;
     border-radius: 80px;
 }
+
+/* HEADER */

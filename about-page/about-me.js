@@ -11,7 +11,9 @@ const about = document.getElementById("about");
 const skills = document.getElementById("skills");
 const education = document.getElementById("education");
 const contact = document.getElementById("contact");
-const books= document.getElementById("second");
+const books = document.getElementById("second");
+const name = document.getElementById("name");
+
 
 function goToHome() {
     home.addEventListener("click", () => {
@@ -46,9 +48,9 @@ goToEducation();
 
 
 
-function goToBooks(){
-    books.addEventListener("click", () =>{
-        window.location.href="https://www.karenkingsbury.com/divine"
+function goToBooks() {
+    books.addEventListener("click", () => {
+        window.location.href = "https://www.karenkingsbury.com/divine"
     })
 };
 goToBooks();
@@ -58,7 +60,8 @@ function setPointer() {
     about.style.cursor = "pointer";
     skills.style.cursor = "pointer";
     education.style.cursor = "pointer";
-    books.style.cursor="pointer";
+    books.style.cursor = "pointer";
+    name.style.cursor = "default";
 }
 
 setPointer();

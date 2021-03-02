@@ -12,6 +12,8 @@ const about = document.getElementById("about");
 const skills = document.getElementById("skills");
 const education = document.getElementById("education");
 const contact = document.getElementById("contact");
+const name = document.getElementById("name");
+
 
 function goToHome() {
     home.addEventListener("click", () => {
@@ -51,6 +53,7 @@ function setPointer() {
     about.style.cursor = "pointer";
     skills.style.cursor = "pointer";
     education.style.cursor = "pointer";
+    name.style.cursor = "default";
 }
 
 setPointer();
