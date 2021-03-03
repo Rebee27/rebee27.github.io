@@ -47,12 +47,20 @@ function goToEducation() {
 goToEducation();
 
 
+function goToContact() {
+    contact.addEventListener("click", () => {
+        window.location.href = "../contact/contact.html"
+    })
+};
+goToContact();
+
 
 function setPointer() {
     home.style.cursor = "pointer";
     about.style.cursor = "pointer";
     skills.style.cursor = "pointer";
     education.style.cursor = "pointer";
+    contact.style.cursor = "pointer";
     name.style.cursor = "default";
 }
 

@@ -1,39 +1,36 @@
+var facebook = document.getElementById("facebook");
+var instagram = document.getElementById("instagram");
+var github = document.getElementById("github");
+var linkedin = document.getElementById("linkedin");
 
-//IMAGES 
 
-var images = new Array()
-images[0] = "../images/image1.jpg";
-images[1] = "../images/image2.jpg";
-images[2] = "../images/image3.jpeg";
-images[3] = "../images/image4.jpeg";
-images[4] = "../images/image5.jpeg";
-images[5] = "../images/image6.jpeg";
-images[6] = "../images/image7.jpeg";
-setInterval("changeImage()", 4000);
-var x = 0;
+function goToFacebook() {
+    facebook.addEventListener("click", () => {
+        window.location.href = "https://www.facebook.com/rebeca.gog.3"
+    })
+};
+goToFacebook();
 
-function changeImage() {
-    document.getElementById("img").src = images[x];
-    x++;
-    if (images.length == x) {
-        x = 0;
-    }
-}
+function goToInstagram() {
+    instagram.addEventListener("click", () => {
+        window.location.href = "https://www.instagram.com/rebee.gog/"
+    })
+};
+goToInstagram();
 
-//DESCRIPTION
+function goToGithub() {
+    github.addEventListener("click", () => {
+        window.location.href = "https://github.com/Rebee27"
+    })
+};
+goToGithub();
 
-var i = 0;
-var txt = "So.. If you are here probably you're curious who I am.Well, let's make the introduction.Hi, I'm Rebeca, a 19 years old girl who just took her life in her hands.I'm super excited to present my very first big project:my personal online CV.Here you'll find out info about who I am,what I do and what I am expecting from life. I hope you enjoy it!";
-var speed = 40;
-
-function typeWriter() {
-    if (i < txt.length) {
-        document.getElementById("description").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-    }
-}
-
+function goToLinkedin() {
+    linkedin.addEventListener("click", () => {
+        window.location.href = "https://www.linkedin.com/in/rebeca-gog-77b6b91b3/"
+    })
+};
+goToLinkedin();
 
 
 //HEADER
@@ -93,7 +90,10 @@ function setPointer() {
     education.style.cursor = "pointer";
     contact.style.cursor = "pointer";
     name.style.cursor = "default";
+    facebook.style.cursor = "pointer";
+    instagram.style.cursor = "pointer";
+    github.style.cursor = "pointer";
+    linkedin.style.cursor = "pointer";
 }
 
 setPointer();
-

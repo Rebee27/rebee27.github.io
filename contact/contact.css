@@ -1,12 +1,49 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
- 
-    margin: 0%;
-    background-color: #242423;
-    color: rgb(111,111,110);
-
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+     
+        margin: 0%;
+        background-color: #242423;
 }
+
+
+#container{
+    background-color: rgb(255, 237, 211);
+    position: fixed;
+    width: 40%;
+    height: 50%;
+    top: 25%;
+    right: 30%;
+    margin: 0 auto;
+    padding-top: 2%;
+    text-align: center;
+    font-size: 180%;
+    line-height: 210%;
+    border-radius: 25%;
+    box-shadow: 10px 10px 10px rgb(201, 184, 162);
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-instagram{
+    color: rgb(206, 22, 22);
+}
+
+.fa-envelope{
+    color:white;
+}
+
+.fa-linkedin{
+    color:rgb(0, 151, 151)
+}
+
+i{
+    font-size: 140%;
+}
+
+
 
 /* HEADER */
 header{
@@ -16,6 +53,7 @@ header{
     font-size: 150%; 
     position: absolute;
     height: 100%;
+    color: rgb(111,111,110); 
 }
 
 #name{
@@ -95,39 +133,3 @@ header{
 }
 
 /* HEADER */
-
-#img{
-    margin: 1% 0 0 1%;
-    width: 500px;
-    height: 800px;
-    position: absolute;
-}
-
-#motto{
-    align-self: center;
-    width: 50%;
-    color: #80e5f7;
-    font-size: 50px;
-    position: absolute;
-}
-
-#description{
-    font-size: 30px;
-    line-height: 150%;
-    text-shadow: 5px 5px 5px #9d93a0;
-    color: #d27fe7;
-    margin-top: 40%;
-}
-
-#content {
-    padding-left:11% ;
-    align-self: center;
-    text-align: center;
-    display: flex;
-    width: 100%;
-}
-
-#text{
-    margin: 3% 5% 0 35%;
-}
-
