@@ -23,7 +23,7 @@ function changeImage() {
 //DESCRIPTION
 
 var i = 0;
-var txt = "So.. If you are here probably you're curious who I am.Well, let's make the introduction.Hi, I'm Rebeca, a 19 years old girl who just took her life in her hands.I'm super excited to present my very first big project:my personal online CV.Here you'll find out info about who I am,what I do and what I am expecting from life. I hope you enjoy it!";
+var txt = "So.. If you are here you're probably curious who I am.Well, let's make the introduction.Hi, I'm Rebeca, a 19 years old girl who just took her life in her hands.I'm super excited to present my very first big project:my personal online CV.Here you'll find out info about who I am,what I do and what I am expecting from life. I hope you enjoy it!";
 var speed = 40;
 
 function typeWriter() {

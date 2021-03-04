@@ -14,7 +14,7 @@ header{
     text-align: center;
     padding: 1%;
     font-size: 150%; 
-    position: absolute;
+    position: fixed;
     height: 100%;
 }
 
@@ -109,14 +109,18 @@ header{
     color: #80e5f7;
     font-size: 50px;
     position: absolute;
+    background-color:#41413e ;
+    border-radius: 50%;
 }
 
 #description{
     font-size: 30px;
     line-height: 150%;
     text-shadow: 5px 5px 5px #9d93a0;
-    color: #d27fe7;
+    color:#d27fe7;
     margin-top: 40%;
+    background-color:#242423 ;
+   
 }
 
 #content {

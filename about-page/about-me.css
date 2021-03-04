@@ -13,8 +13,8 @@ header{
     text-align: center;
     padding: 1%;
     font-size: 150%; 
-    position: absolute;
-    height: 104%;
+    position:fixed;
+    height: 100%;
 }
 
 #name{
@@ -99,11 +99,13 @@ header{
     color: #F5F5F5;
     font-size: 18px;
     line-height:160%;
+
 }
 
 
 ul{
     list-style: none;
+   
 }
 
 li{
@@ -132,12 +134,14 @@ i{
     font-size: 130%;
 }
 
+
 i:hover{
     animation: 2s shake infinite alternate;
 }
 
 li b{
     color: white;
+  
 }
 
 .hobbyTitle{
