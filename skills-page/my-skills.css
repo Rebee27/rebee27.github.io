@@ -95,3 +95,13 @@ header{
 
 /* HEADER */
 
+#content{
+  padding: 2% 13%;
+  font-size: 150%;
+  color: blanchedalmond;
+  line-height: 160%;
+}
+
+#content b{
+  color: #F5F5F5;
+}
