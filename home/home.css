@@ -302,12 +302,12 @@ header{
     }
     
     #text{
-        margin: 90% 8% 0 18%;
+        margin: 100% 8% 0 18%;
         text-align: center;
     }
     
     #motto{
-        margin: 28% 0 0 15%;
+        margin: 40% 0 0 15%;
         width: 30%;
         height: 10%;
         font-size: 50%; 
@@ -320,6 +320,44 @@ header{
     
     #profileImage{
         width: 75px;
+        height: 95px;
+    }
+
+}
+
+@media only screen and (max-width:400px){ 
+
+     
+    #content{
+        display: inline-block;
+        text-align: left;
+    }
+        
+    #img{
+        width: 200px;
+        height: 300px;
+        margin-left: 20%;
+    }
+    
+    #text{
+        margin: 100% 8% 0 18%;
+        text-align: center;
+    }
+    
+    #motto{
+        margin: 38% 0 0 15%;
+        width: 30%;
+        height: 10%;
+        font-size: 40%; 
+    }
+    
+    header{
+        font-size:80%; 
+        width: 18%;
+    }
+    
+    #profileImage{
+        width: 70px;
         height: 95px;
     }
 
