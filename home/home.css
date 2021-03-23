@@ -345,15 +345,15 @@ header{
     }
     
     #motto{
-        margin: 60% 0 0 11%;
-        width: 40%;
+        margin: 50% 0 0 11%;
+        width: 50%;
         height: 8%;
-        font-size: 30%; 
+        font-size: 40%; 
     }
     
     header{
         font-size:60%; 
-        width: 18%;
+        width: 15%
     }
     
     #profileImage{
