@@ -1,4 +1,4 @@
-### http://Rebee27.github.io/rebee27.github.io/home.html
+### http://Rebee27.github.io/rebee27.github.io/home/home.html
 
 <!--
 **Rebee27/rebee27** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
