@@ -201,8 +201,13 @@ img{
 @media only screen and (max-width:650px){
 
     header{
-        font-size: 120%; 
-        width: 20%;
+        font-size: 90%; 
+        width: 15%;
+    }
+ 
+    #profileImage{
+        width: 70px;
+        height: 90px;
     }
 
     #content{
@@ -210,14 +215,18 @@ img{
         font-size: 90%;   
     }
     
-    
     .hobbyTitle{
        font-size:60%;
        width: 50%;
        border-radius: 48%;
     }
 
-#cooking{
-    width: 35%;
-}
+     #cooking{
+        width: 35%;
+       }
+
+     img{
+         width: 40%;
+          height: 40%;
+         }
 }
