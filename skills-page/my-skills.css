@@ -137,10 +137,10 @@ header{
 
 
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:300px){
 
   header{
-    font-size: 80%; 
+    font-size: 60%; 
     width: 15%;
   }
 
