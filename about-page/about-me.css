@@ -95,7 +95,7 @@ header{
 /* HEADER */
 
 #content{
-    padding: 0 13%;
+    padding: 0 13% 0 18%;
     color: #F5F5F5;
     font-size: 18px;
     line-height:160%;
@@ -145,18 +145,79 @@ li b{
 }
 
 .hobbyTitle{
+    font-size:80%;
     background-color: black;
     box-sizing: content-box;
     padding: 1%;
-    width: 16%;
+    width: 18%;
     border-radius: 48%;
 }
 
 #cooking{
-    width:10%
+    width:14%;
+    font-size: 70%;
 }
 
 img{
     width: 15%;
     height: 50%;
+}
+
+
+@media only screen and (max-width:1240px){
+
+    header{
+        font-size: 120%; 
+        width: 15%;
+    }
+
+    #profileImage{
+        width: 100px;
+        height: 130px;
+    }
+    #content{
+        padding: 0 13% 0 25%;
+        font-size: 90%;   
+    }
+    
+    
+    .hobbyTitle{
+       font-size:60%;
+       width: 20%;
+       border-radius: 48%;
+    }
+
+     #cooking{
+          width:20%;
+         font-size: 60%;
+       }
+
+       p{
+           font-size: 80%;
+       }
+}
+
+
+@media only screen and (max-width:650px){
+
+    header{
+        font-size: 120%; 
+        width: 20%;
+    }
+
+    #content{
+        padding: 0 13% 0 25%;
+        font-size: 90%;   
+    }
+    
+    
+    .hobbyTitle{
+       font-size:60%;
+       width: 50%;
+       border-radius: 48%;
+    }
+
+#cooking{
+    width: 35%;
+}
 }
