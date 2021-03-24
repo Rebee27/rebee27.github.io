@@ -18,7 +18,7 @@ body{
     margin: 0 auto;
     padding-top: 2%;
     text-align: center;
-    font-size: 180%;
+    font-size: 150%;
     line-height: 210%;
     border-radius: 25%;
     box-shadow: 10px 10px 10px rgb(201, 184, 162);
@@ -134,3 +134,61 @@ header{
 }
 
 /* HEADER */
+
+@media only screen and (max-width:1000px){
+
+    #container{
+      width: 60%;
+      right: 10%;
+      font-size: 120%;
+      padding-top: 10%;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+
+    #container{
+      width: 50%;
+      height: 30%;
+      right: 15%;
+      font-size: 80%;
+      padding-top: 8%;
+    }
+
+    header{
+        font-size: 100%; 
+       width: 20%;
+    }
+
+#profileImage{
+    width: 80px;
+    height: 110px;
+}
+
+
+}
+
+
+@media only screen and (max-width:400px){
+
+    #container{
+      width: 60%;
+      height: 30%;
+      right: 10%;
+      font-size: 80%;
+      padding-top: 8%;
+    }
+
+    header{
+        font-size: 90%; 
+       width: 20%;
+    }
+
+#profileImage{
+    width: 60px;
+    height: 90px;
+}
+
+
+}
