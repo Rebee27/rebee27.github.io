@@ -9,6 +9,7 @@ images[3] = "../images/image4.jpeg";
 images[4] = "../images/image5.jpeg";
 images[5] = "../images/image6.jpeg";
 images[6] = "../images/image7.jpeg";
+images[7] = "../images/image8.jpg";
 setInterval("changeImage()", 4000);
 var x = 0;
 
