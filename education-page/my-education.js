@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 //header
 
 const home = document.getElementById("home");

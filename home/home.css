@@ -1,13 +1,10 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
- 
     margin: 0%;
     background-color: #242423;
     color: rgb(111,111,110);
-
 }
-
 /* HEADER */
 header{
     background-color:#F5F5F5;
@@ -17,7 +14,6 @@ header{
     position: fixed;
     height: 100%;
 }
-
 #name{
     margin-top: 20%;
     margin-bottom: 20%;
@@ -27,11 +23,9 @@ header{
     background-color: rgb(165, 162, 162);
     padding: 5% 10%;
 }
-
 #name:hover{
     animation: 2s shake infinite alternate;
 }
-
 @keyframes shake {
     0% { transform: skewX(-15deg); }
     5% { transform: skewX(15deg); }
@@ -40,13 +34,10 @@ header{
     20% { transform: skewX(0deg); }
     100% { transform: skewX(0deg); }  
   }
-
 #pages{
     color: 00FFF0;
     line-height: 250%;
- 
 }
-
 #home:hover {
     background-color: black;
     color: #EDA7FF;
@@ -54,7 +45,6 @@ header{
     box-sizing: content-box;
     padding: 5% 12%;
   }
-
 #about:hover {
     background-color: black;
     color: #EDA7FF;
@@ -62,7 +52,6 @@ header{
     box-sizing: content-box;
     padding: 5% 12%;
   }
-
 #skills:hover {
     background-color: black;
     color: #EDA7FF;
@@ -70,7 +59,6 @@ header{
     box-sizing: content-box;
     padding: 5% 12%;
   }
-
 #education:hover {
     background-color: black;
     color: #EDA7FF;
@@ -78,7 +66,6 @@ header{
     box-sizing: content-box;
     padding: 5% 12%;
   }
-
 #contact:hover {
     background-color: black;
     color: #EDA7FF;
@@ -86,8 +73,6 @@ header{
     box-sizing: content-box;
     padding: 5% 12%;
   }
-
-
 #profileImage{
     width: 150px;
     height: 180px;
@@ -96,14 +81,12 @@ header{
 
 /* HEADER */
 
-
 #img{
     margin: 0 0 0 1%;
     width: 420px;
     height: 720px;
     position: absolute;
 }
-
 #motto{
     align-self: center;
     width: 50%;
@@ -114,7 +97,6 @@ header{
     background-color:#41413e ;
     border-radius: 50%;
 }
-
 #description{
     font-size: 30px;
     line-height: 150%;
@@ -124,7 +106,6 @@ header{
     background-color:#242423 ;
    
 }
-
 #content {
     padding-left:11% ;
     align-self: center;
@@ -132,11 +113,9 @@ header{
     display: flex;
     width: 100%;
 }
-
 #text{
     margin: 3% 5% 0 40%;
 }
-
 
 @media only screen and (max-width:1260px){
     #img{
@@ -144,40 +123,31 @@ header{
         width: 400px;
         height: 600px;
     }
-    
     #motto{
         width: 45%;
         height: 30%;
         border-radius: 50%;
         font-size: 158%;
     }
-    
     #description{
         font-size: 20px;
         margin-top:50%;
        
     }
-    
     #content {
         padding-left:16% ;
     }
-    
     #text{
         margin: 5% 5% 0 45%;
     }
-    
-    
 }
 
 @media only screen and (max-width:1070px){ 
-
-     
     #img{
         margin: 3% 0 0 3%;
         width: 300px;
         height: 500px;
     }
-    
     #motto{
         width: 35%;
         height: 25%;
@@ -185,85 +155,65 @@ header{
         font-size: 110%;
         margin-top: 5%;
     }
-    
     #description{
         font-size: 15px;
         margin-top: 65%;
        
     }
-
-    
     #text{
         margin: 3% 5% 0 45%;
     }
-    
     header{
        width: 10%;
         padding: 1%;
         font-size: 100%; 
     }
-
     #profileImage{
         width: 100px;
         height: 120px;
 
-    }
-    
-    
+    }    
 } 
 
-
 @media only screen and (max-width:900px){ 
-
-     
     #img{
         margin: 3% 0 0 3%;
         width: 200px;
         height: 350px;
     }
-    
     #motto{
         width: 25%;
         height: 15%;
         font-size: 70%;
         margin-top: 5%;
-    }
-    
+    } 
     #description{
         font-size: 10px;
         margin-top: 60%;
        
     }
-    
     #text{
         margin: 3% 5% 0 45%;
     }
-    
     header{
         font-size: 80%; 
     }
-
     #profileImage{
         width: 70px;
         height: 90px;
     }
-    
 } 
 
 @media only screen and (max-width:650px){ 
-
-     
     #content{
         display: inline-block;
         text-align: left;
     }
-        
     #img{
         width: 200px;
         height: 300px;
         margin-left: 25%;
     }
-    
     #text{
         margin: 75% 8% 0 10%;
         text-align: center;
@@ -279,86 +229,68 @@ header{
         font-size:80%; 
         width: 16%;
     }
-    
     #profileImage{
         width: 65px;
         height: 85px;
     }
-
 }
 
-@media only screen and (max-width:500px){ 
-
-     
+@media only screen and (max-width:500px){  
     #content{
         display: inline-block;
         text-align: left;
     }
-        
     #img{
         width: 200px;
         height: 300px;
         margin-left: 25%;
     }
-    
     #text{
         margin: 100% 8% 0 18%;
         text-align: center;
     }
-    
     #motto{
         margin: 30% 0 0 6%;
         width: 50%;
         height: 12%;
         font-size: 58%; 
     }
-    
     header{
         font-size:90%; 
         width: 25%;
     }
-    
     #profileImage{
         width: 75px;
         height: 95px;
     }
-
 }
 
 @media only screen and (max-width:300px){ 
-
-     
     #content{
         display: inline-block;
         text-align: left;
-    }
-        
+    }    
     #img{
         width: 200px;
         height: 300px;
         margin-left: 10%;
     }
-    
     #text{
         margin: 140% 8% 0 18%;
         text-align: center;
     }
-    
     #motto{
         margin: 20% 0 0 11%;
         width: 50%;
         height: 8%;
         font-size: 40%; 
     }
-    
     header{
         font-size:60%; 
         width: 15%
     }
-    
     #profileImage{
         width: 60px;
         height: 80px;
     }
-
 }
